@@ -50,7 +50,7 @@ class RecyclerViewActivity : AppCompatActivity() {
 
         recyclerView.adapter = adapter
 
-        recyclerView.layoutManager = LinearLayoutManager(this)
+        recyclerView.layoutManager=LinearLayoutManager(this)
 
         findViewById<Button>(R.id.refresh).setOnClickListener {
             mainItems.add(

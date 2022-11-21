@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         val list = mutableListOf<MainItem>()
 
         list.add(MainItem("RecyclerView", RecyclerViewActivity::class.java))
+        list.add(MainItem("Navigation", com.example.navigation.MainActivity::class.java))
         list
     }
 

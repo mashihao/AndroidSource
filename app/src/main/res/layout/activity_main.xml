@@ -9,12 +9,13 @@
 
     <Button
         android:id="@+id/refresh"
-        android:text="refresh"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="refresh" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
-        android:background="#BF2B2B"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:background="#BF2B2B" />
 </LinearLayout>
